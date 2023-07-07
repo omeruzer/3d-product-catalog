@@ -23,20 +23,19 @@ width:100%;
 `
 
     const Title = styled.div`
-        font-size:56px;
+        font-size:48px;
         font-weight:600;
   `
     const SubTitle = styled.div`
-        font-size:24px;
+        font-size:20px;
         font-weight:400;
   `
     return (
         <Header>
             <Box>
                 <div>
-                    <Title style={{ marginBottom: '50px' }}>Logo</Title>
-                    <Title>Brand Name</Title>
-                    <SubTitle>2023 Summer</SubTitle>
+                    <Title>Omer Clothing</Title>
+                    <SubTitle>2023 Summer Collection</SubTitle>
                 </div>
             </Box>
         </Header>

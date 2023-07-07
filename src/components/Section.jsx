@@ -1,7 +1,6 @@
 import React from 'react'
 import { styled } from 'styled-components';
 import Cube from './Cube';
-import Tisort from '../assets/tisort.gltf'
 
 export default function Section({ color, product, index }) {
 
@@ -18,7 +17,7 @@ export default function Section({ color, product, index }) {
     const Box = styled.div`
     display:flex;
     height:100%;
-    flex-direction: ${index % 2 == 0 ? "row" : "row-reverse"};
+    ${'' /* flex-direction: ${index % 2 == 0 ? "row" : "row-reverse"}; */}
     align-items:center;
     width:100%;
     @media (max-width: 768px) {
@@ -33,7 +32,7 @@ export default function Section({ color, product, index }) {
     justify-content: center;
     align-items: center;
     @media (max-width: 768px) {
-    width: 100vh;
+    width: 200%;
   }
   `
 
@@ -77,7 +76,7 @@ export default function Section({ color, product, index }) {
         <Section>
             <Box>
                 <ItemBox>
-                    <Cube color={color} file={Tisort}/>
+                    <Cube position={product.position} color={color} file={product.file}/>
                 </ItemBox>
                 <Content>
                     <Title>{product.title}</Title>

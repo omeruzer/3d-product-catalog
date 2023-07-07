@@ -35,8 +35,9 @@ width:100%;
         <Contact>
             <Box>
                 <div>
-                    <Title>John Wick</Title>
-                    <SubTitle>+90 545 539 1322</SubTitle>
+                    <Title>Omer Uzer</Title>
+                    <SubTitle>+90 500 111 1111</SubTitle>
+                    <SubTitle>Istanbul / Turkey</SubTitle>
                 </div>
             </Box>
         </Contact>
